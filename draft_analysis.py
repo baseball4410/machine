@@ -58,7 +58,7 @@ def draft_analysis(year, round_num):
     st.pyplot(plt)
 
 # Streamlitアプリケーションの設定
-st.title('2024年後期柿本プログラミング演習課題～MLBドラフト分析ツールの作成～')
+st.title('ドラフト分析ツール')
 year = st.number_input('年度を入力してください:', min_value=1965, max_value=2023, value=1965)
 round_num = st.number_input('何巡目かを入力してください:', min_value=1, max_value=50, value=1)
 
